@@ -6,7 +6,7 @@
   "APP_ID": "427572bf78f044cdadcc21cb768cd051",
   "PRIMARY_COLOR": "#0097E6",
   "FRONTEND_ENDPOINT": "",
-  "BACKEND_ENDPOINT": "http://localhost:9000",
+  "BACKEND_ENDPOINT": "http://localhost:8080",
   "PSTN": false,
   "PRECALL": true,
   "CHAT": true,

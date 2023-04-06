@@ -28,8 +28,8 @@ export const GraphQLContext = createContext<{
 
 const GraphQLProvider = (props: {children: React.ReactNode}) => {
   const httpLink = createHttpLink({
-    // uri: `${$config.BACKEND_ENDPOINT}/query`,
-    uri: `http://localhost:8080/query`
+    uri: `${$config.BACKEND_ENDPOINT}/query`,
+    // uri: `http://localhost:8080/query`
   });
   const {store} = useContext(StorageContext);
   const authLink = setContext(async (_, {headers}) => {
